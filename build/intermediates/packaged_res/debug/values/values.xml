@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_vertical_margin"/>
+    <dimen name="text_size"/>
+    <item name="buttonAgregar" type="id"/>
+    <item name="buttonContinuar" type="id"/>
+    <item name="editTextArticulo" type="id"/>
+    <item name="editTextCantidad" type="id"/>
+    <item name="editTextPrecio" type="id"/>
+    <item name="tableLayoutFactura" type="id"/>
+    <string name="app_name">Prueba</string>
+    <string name="button_cargar_productos"/>
+    <string name="button_guardar_configuracion"/>
+    <string name="button_venta"/>
+    <string name="default_web_client_id" translatable="false">462144201971-6p3j64tnd900irobue9lm4533a3p78e9.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://prueba-tecnica-b2bcc-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">462144201971</string>
+    <string name="google_api_key" translatable="false">AIzaSyBvHfLn0ukd2J6SxUF9GOFK3yo7DWdJ7IY</string>
+    <string name="google_app_id" translatable="false">1:462144201971:android:1e026bdd06aef0b43a0386</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBvHfLn0ukd2J6SxUF9GOFK3yo7DWdJ7IY</string>
+    <string name="google_storage_bucket" translatable="false">prueba-tecnica-b2bcc.appspot.com</string>
+    <string name="project_id" translatable="false">prueba-tecnica-b2bcc</string>
+    <string name="textview_consecutivo"/>
+    <string name="textview_distintivo"/>
+    <string name="textview_ruta"/>
+    <string name="total"/>
+    <style name="Base.Theme.Prueba" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Prueba" parent="Base.Theme.Prueba"/>
+</resources>

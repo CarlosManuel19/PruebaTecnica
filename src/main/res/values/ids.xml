@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextArticulo" type="id" />
+    <item name="editTextCantidad" type="id" />
+    <item name="editTextPrecio" type="id" />
+    <item name="buttonAgregar" type="id" />
+    <item name="buttonContinuar" type="id" />
+    <item name="tableLayoutFactura" type="id" />
+    <item name="btnNuevaVenta" type="id" />
+</resources>

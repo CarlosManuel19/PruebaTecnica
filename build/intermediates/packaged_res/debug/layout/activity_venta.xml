@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textview_venta_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/venta_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_venta_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview_venta_id"
+        app:layout_constraintTop_toTopOf="@+id/textview_venta_id" />
+
+    <TextView
+        android:id="@+id/textview_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/fecha"
+        app:layout_constraintStart_toStartOf="@+id/textview_venta_id"
+        app:layout_constraintTop_toBottomOf="@+id/textview_venta_id" />
+
+    <EditText
+        android:id="@+id/edittext_fecha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_venta_id"
+        app:layout_constraintStart_toEndOf="@+id/textview_fecha"
+        app:layout_constraintTop_toTopOf="@+id/textview_fecha" />
+
+    <TextView
+        android:id="@+id/textview_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        app:layout_constraintStart_toStartOf="@+id/textview_fecha"
+        app:layout_constraintTop_toBottomOf="@+id/textview_fecha" />
+
+    <EditText
+        android:id="@+id/edittext_total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_fecha"
+        app:layout_constraintStart_toEndOf="@+id/textview_total"
+        app:layout_constraintTop_toTopOf="@+id/textview_total" />
+
+    <TextView
+        android:id="@+id/textview_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        app:layout_constraintStart_toStartOf="@+id/textview_total"
+        app:layout_constraintTop_toBottomOf="@+id/textview_total" />
+
+    <EditText
+        android:id="@+id/edittext_usuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_total"
+        app:layout_constraintStart_toEndOf="@+id/textview_usuario"
+        app:layout_constraintTop_toTopOf="@+id/textview_usuario" />
+
+    <Button
+        android:id="@+id/button_agregar_articulo"
+        android:layout_width="wrap_content"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

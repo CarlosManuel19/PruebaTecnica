@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="total" />
+    <string name="textview_ruta" />
+    <string name="textview_distintivo" />
+    <string name="textview_consecutivo" />
+    <string name="button_guardar_configuracion" />
+    <string name="button_cargar_productos" />
+    <string name="button_venta" />
+</resources>

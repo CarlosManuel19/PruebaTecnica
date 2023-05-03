@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/textview_ruta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_ruta"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/edittext_ruta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_ruta"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/textview_distintivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_ruta"
+        android:text="@string/textview_distintivo"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/edittext_distintivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_distintivo"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/textview_consecutivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_distintivo"
+        android:text="@string/textview_consecutivo"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/edittext_consecutivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_consecutivo"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/button_guardar_configuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_consecutivo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_guardar_configuracion"/>
+
+    <Button
+        android:id="@+id/button_cargar_productos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_guardar_configuracion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_cargar_productos"/>
+
+    <Button
+        android:id="@+id/button_venta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_cargar_productos"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_venta"/>
+
+</RelativeLayout>
